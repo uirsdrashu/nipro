@@ -1,0 +1,245 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+/* ============COMMON START===============*/
+
+body {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: #8e8e8e;
+}
+
+/* ============COMMON END===============*/
+
+/* ============HEADER START===============*/
+header {
+  padding: 10px 0;
+
+}
+
+.logo {}
+.logo h1{
+  font-family: Lato-Bold;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.menu ul li a {
+  font-family: Lato-Regular;
+  font-size: 17px;
+  font-weight: 400;
+  transition: .3s;
+  margin: 0 20px !important;
+}
+
+.menu ul li a:hover {
+  color: #333333 !important;
+
+}
+
+.search {}
+.sdd {}
+.search-icon {
+  font-size: 16px;
+  color: #8e8e8e;
+
+}
+
+.sdd::after {
+  display: none;
+}
+
+
+.sdd:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.10rem rgb(74 92 118 / 25%);
+}
+
+
+
+
+.sdd-m{
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  border-radius: 0;
+}
+
+.sdd-m[data-bs-popper] {
+  top: 70px;
+  left: -346px;
+  margin-top: 0;
+  border: 0;
+}
+
+.search-f {
+
+}
+
+
+
+.search-inp {
+  width: 100%;
+  height: 50px;
+  box-shadow: none !important;
+  padding: 10px 10px;
+
+}
+.search-btn {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid #8e8e8e;
+}
+
+
+/* ============HEADER END===============*/
+
+/* ============SLIDER START===============*/
+
+.slider {
+  background-image: url(../images/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.c-slider {
+  margin: 150px 0;
+}
+.c-slider h1 {
+  font-family: Lato-Bold;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.c-slider p {
+  margin: 40px 0 60px;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: .3px;
+}
+.c-slider button {
+  width: 190px;
+  height: 50px;
+  border: none
+}
+
+.c-slider button i {
+  margin-left: 15px;
+}
+
+.s-btn {
+  border: none !important;
+  font-size: 30px;
+  padding-right: 30px;
+  background: transparent;
+
+}
+
+  
+/* ============SLIDER END===============*/
+
+
+/* ============WELCOME START===============*/
+.box {
+  margin: 0 auto;
+  background-color: #333333;
+  width: 2px;
+  height: 50px;
+}
+
+.wel-title {}
+
+.c-h1 {
+  margin: 20px 0 35px 0;
+  font-family: Lato-Regular;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.c-p {
+  font-family: Roboto-Regular;
+  padding-bottom: 80px;
+}
+
+/* ============WELCOME END===============*/
+
+/* ============ABOUT US START===============*/
+
+.about-us {
+  margin-bottom: 120px;
+}
+
+.c-h1 {
+  padding-bottom: 18px;
+}
+
+
+
+.a-text button {
+  margin-top: 15px;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #333333;
+  background-color: transparent;
+}
+
+.a-text button i {
+  margin-left: 15px;
+}
+
+
+/* ============ABOUT US END===============*/
+
+/* ============RECENT WORK START===============*/
+
+.recent {
+  background-color: #f8f8f8;
+  padding-bottom: 80px;
+  
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.recent-img {
+  margin-top: 30px;
+}
+
+/* ============RECENT WORK END===============*/
+
+/* ============WhY CHOOSE NIPRO START===============*/
+
+.icon-text {}
+.icon-text i {
+  font-size: 48px;
+}
+.icon-text h3 {
+  padding-bottom: 10px !important;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+/* ============WhY CHOOSE NIPRO END===============*/
